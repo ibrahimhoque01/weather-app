@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+      <form class="form-inline ml-auto">
+        <input class="form-control input-submit" type="text"  name="action" placeholder="Search Location">
+        <button class="btn btn-outline-light btn-submit" type="button">Search</button>
+      </form>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="weather-info">
+                    <h2 class="city-heading">--</h2>
+                    <p class="date-time">--</p>
+                    <h1 class="curr-temp">--</h1>
+                    <img id="weather-icon" src="" alt="--">
+                    <p class="desc">--</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="weather-data">
+   
+                    <div class="row">
+      
+      
+
+                        <div class="column" >
+                          <p>Min Temp<p>
+                          <h4 class="min-temp">--</h4>
+                        </div>
+                        <div class="column">
+                          <p>Max Temp</p>
+                          <h4 class="max-temp">--</h4>
+                        </div>
+                      </div>
+                      
+                      <div class="row">
+                        <div class="column">
+                          <p>Humidity</p>
+                          <h4 class="humidity">--</h4>
+                        </div>
+                        <div class="column" >
+                          <p>Wind Speed</p>
+                          <h4 class="wind">--</h4>
+                        </div>
+                      </div>
+          
+                </div>
+            </div>
+        </div>
+        <!-- <select name="cities" class="city-select">
+           <option value="">--Choose a Location--</option>
+            <option value="nyc">New York</option>
+            <option value="london">London</option>
+            <option value="paris">Paris</option>
+        </select> -->
+
+
+        
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+<!-- NYC 5128581 -->
+<!-- London - 2643743 -->
+<!-- Paris - 2968815 -->
+<!-- API key = b852762e189531f0e8cf857a51fdb129 -->
